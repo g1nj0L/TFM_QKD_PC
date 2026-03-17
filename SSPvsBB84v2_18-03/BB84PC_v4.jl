@@ -112,7 +112,7 @@ where
 
         Ω(ρ) = tr(ρ) · I/2
 
-and I is the 2×2 identity matrix (we are working within the qubit space, therefore the 1/2 term in the identity aswell). Because we are using the asymptotic trick (Tr(ρ) = 2) and working within the qubit space (d = 2), the depolarizing term simplifies to exactly to ρ_A ⊗ I_A′.
+and I is the 2×2 identity matrix (we are working within the qubit space, therefore the 1/2 term in the identity aswell).
 
 [TO-DO] EXPLAIN THIS FURTHER AND BE SURE IT'S WELL IMPLEMENTED!!
 
