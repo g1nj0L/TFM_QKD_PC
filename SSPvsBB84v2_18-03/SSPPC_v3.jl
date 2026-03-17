@@ -161,7 +161,7 @@ which can be proven to recover Ωₚ(ρ)
 
         Ωₚ(ρ) = A₀ ρ A₀† + A₁ ρ A₁† + A₂ ρ A₂† + A₃ ρ A₃†
 
-> I'm not sure if this is the more intelligent way to implement this, since we are acting on a small system (qubit space) and the depolarizing operation is relatively trivial to compute. Therefore, an adhoc solution could be more computationally efficient, even though there might be some problems associated with this solution I'm not aware of. I'll try to code it this way (what is written before this DOUBT) and in case I get strange results, I'll do the Kraus' operators approach.
+> I'm not sure if this is the most intelligent way to implement this, since we are acting on a small system (qubit space) and the depolarizing operation is relatively trivial to compute. Therefore, an adhoc solution could be more computationally efficient, even though there might be some problems associated with this solution I'm not aware of. I'll try to code it this way (what is written before this DOUBT) and in case I get strange results, I'll do the Kraus' operators approach.
 """
 function apply_depolarizing_channel(ρ_AA′::AbstractMatrix, p_dep::T) where {T}
     # When the depolarization occurs, the state of the subsystem A′ (the one
