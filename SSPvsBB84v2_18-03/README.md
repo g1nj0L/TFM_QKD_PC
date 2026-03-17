@@ -1,6 +1,6 @@
 # What can you find here?
 
-In this folder we can find the following things the code I've been working with **from 11/03/26 to 18/03/26**. The functions ```BB84PC_v4.jl```, ```SSPPC_v3.jl``` and ```plots_v2.jl``` implement the main task I had this week: to implement the depolarizing channel into the initial code for the BB84 and SSP protocols I'm working with (notice I'm assuming, for now, that $\delta=0$ and $p_\text{dep.}$ is equal for all three basis).
+In this folder we can find the code I've been working with **from 11/03/26 to 18/03/26**. The functions ```BB84PC_v4.jl```, ```SSPPC_v3.jl``` and ```plots_v2.jl``` implement the main task I had this week: to implement the depolarizing channel into the initial code for the BB84 and SSP protocols I'm working with (notice I'm assuming, for now, that $\delta=0$ and $p_\text{dep.}$ is equal for all three basis).
 
 Also:
 - The ```data``` and ```plots``` folders are generated or used by the main functions (```BB84PC_v4.jl```, ```SSPPC_v3.jl``` and ```plots_v2.jl```).
